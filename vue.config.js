@@ -2,8 +2,8 @@ const autoprefixer = require('autoprefixer')
 const pxtoviewport = require('postcss-px-to-viewport')
 
 module.exports = {
-  outputDir: 'docs',
-  publicPath: process.env.NODE_ENV === 'production' ? '/vant-demo/' : '/',
+  outputDir: 'dist',
+  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
   css: {
     loaderOptions: {
       postcss: {

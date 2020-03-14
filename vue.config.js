@@ -3,7 +3,7 @@ const pxtoviewport = require('postcss-px-to-viewport')
 
 module.exports = {
   outputDir: 'dist',
-  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/WebEditorH5/' : '/',
   css: {
     loaderOptions: {
       postcss: {

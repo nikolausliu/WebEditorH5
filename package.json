@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -19,6 +20,7 @@
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-service": "^3.8.3",
     "babel-plugin-import": "^1.12.0",
+    "gh-pages": "^2.2.0",
     "less": "^3.8.1",
     "less-loader": "^5.0.0",
     "postcss-px-to-viewport": "^1.1.0",
